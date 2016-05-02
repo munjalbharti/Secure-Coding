@@ -1,0 +1,21 @@
+-u can do single transaction or batch transaction (using a csv file)
+-How to get tan number?
+There are 2 ways:
+
+During registraton u have the option to select 
+
+1. tan numbers by mail. 
+2. tan numbers by SCS (Smart Card Simulator)
+
+In case of 1st  u will receive a pdf with tan numbers. The password of pdf will also be sent.
+
+In case of 2nd, u will be given another jar file to download. This is a java application built independently. Whenever u make a transaction  u will be prompted with a number. 
+
+Note the number. Start the scs jar. Enter the number noted earlier. Your tan number will be given. Enter that tan number fr transaction.
+
+
+The purpose of project is to make a bank application that is safe from attacks like 
+  1. Session stealing
+  2. CSRF
+  3. XSS
+etc etc
